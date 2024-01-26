@@ -1,0 +1,43 @@
+{
+    "Jim": [
+        {
+            "days": ["Monday", "Wednesday", "Friday"],
+            "className": "Cybersecurity",
+            "roomNumber": "E202",
+            "teacher": "Ms. Rehwinkel"
+        },
+        {
+            "days": ["Tuesday", "Wednesday", "Thursday"],
+            "className": "Biology",
+            "roomNumber": "D201",
+            "teacher": "Ms. Tskirisa"
+        },
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "className": "Web Design",
+            "roomNumber": "B110",
+            "teacher": "Ms Leonard"
+        }
+    ],
+    
+    "Spork": [
+        {
+            "days": ["Monday", "Wednesday", "Friday"],
+            "className": "Web Development",
+            "roomNumber": "B111",
+            "teacher": "Mr. Kilgore"
+        },
+        {
+            "days": ["Tuesday", "Wednesday", "Thursday"],
+            "className": "Biology",
+            "roomNumber": "D201",
+            "teacher": "Ms. Tskirisa"
+        },
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "className": "Web Design",
+            "roomNumber": "B110",
+            "teacher": "Ms Leonard"
+        }
+    ]
+}

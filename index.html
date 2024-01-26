@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule PWA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script type="module" src="index.js"></script>
+
+    <style>
+        main {
+            max-width:900px;
+            margin:0 auto 0 auto;
+        }
+        table {
+            width:100%;
+            margin-bottom:30px;
+        }
+        label {
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <main class="px-3">
+        <h1 class="my-4 text-center">Course Schedule 2023/2024</h1>
+
+        <!-- <select name="day-selector" id="day-selector">
+            <option value="all">All</option>
+            <option value="all">All</option>
+            <option value="all">All</option>
+            <option value="all">All</option>
+            <option value="all">All</option>
+            <option value="all">All</option>
+        </select> -->
+        <div class="py-2">
+            <label>
+                <input type="checkbox" name="day-0" id="day-0" checked>
+                Monday
+            </label>
+            <label>
+                <input type="checkbox" name="day-1" id="day-1" checked>
+                Tuesday
+            </label>
+            <label>
+                <input type="checkbox" name="day-2" id="day-2" checked>
+                Wednesday
+            </label>
+            <label>
+                <input type="checkbox" name="day-3" id="day-3" checked>
+                Thursday
+            </label>
+            <label>
+                <input type="checkbox" name="day-4" id="day-4" checked>
+                Friday
+            </label>
+        </div>
+        <div class="py-2">
+            <label>
+                <input type="checkbox" name="wing-A" id="wing-A" checked>
+                A wing
+            </label>
+            <label>
+                <input type="checkbox" name="wing-B" id="wing-B" checked>
+                B wing
+            </label>
+            <label>
+                <input type="checkbox" name="wing-C" id="wing-C" checked>
+                C wing
+            </label>
+            <label>
+                <input type="checkbox" name="wing-D" id="wing-D" checked>
+                D wing
+            </label>
+            <label>
+                <input type="checkbox" name="wing-E" id="wing-E" checked>
+                E wing
+            </label>
+        </div>
+        <div id="student-options" class="py-2">
+            
+        </div>
+        <!-- <table id="course-table">
+            <thead>
+                <tr>
+                    <td>Course</td>
+                    <td>Room Number</td>
+                    <td>Teacher</td>
+                    <td>Days</td>
+                </tr>
+            </thead>
+            <tbody class="main-courses">
+
+            </tbody>
+        </table> -->
+    </main>
+</body>
+</html>
