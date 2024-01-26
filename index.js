@@ -1,6 +1,4 @@
 
-// let courseTable = document.getElementById("course-table");
-// let mainCourses = courseTable.getElementsByClassName("main-courses")[0];
 let mainContent = document.getElementsByTagName("main")[0];
 
 let dayCheckboxes = [];
