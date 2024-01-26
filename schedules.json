@@ -16,7 +16,7 @@
             "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "className": "Web Design",
             "roomNumber": "B110",
-            "teacher": "Ms Leonard"
+            "teacher": "Ms. Leonard"
         }
     ],
     
@@ -37,7 +37,28 @@
             "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "className": "Web Design",
             "roomNumber": "B110",
-            "teacher": "Ms Leonard"
+            "teacher": "Ms. Leonard"
+        }
+    ],
+    
+    "John Mulaney": [
+        {
+            "days": ["Monday", "Friday"],
+            "className": "Web Development",
+            "roomNumber": "B111",
+            "teacher": "Mr. Kilgore"
+        },
+        {
+            "days": ["Tuesday", "Wednesday", "Thursday"],
+            "className": "Biology",
+            "roomNumber": "E110",
+            "teacher": "Ms. Tskirisa"
+        },
+        {
+            "days": ["Monday", "Tuesday", "Thursday", "Friday"],
+            "className": "Web Design",
+            "roomNumber": "A101",
+            "teacher": "Ms. Leonard"
         }
     ]
 }
